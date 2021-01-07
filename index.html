@@ -3,49 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Epoch Zero</title>
     <link rel="stylesheet" href="css1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,500;1,300&family=Mulish:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;
+800&family=Josefin+Slab:wght@300;400;500;600&family=Mulish:wght@300;400;
+500&display=swap" rel="stylesheet">
 </head>
-<body style="background-color:rgba(255, 255, 255, 0);">
+<body>
     <div class="container">
-        
+        <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+            <span>Close</span>
+        </div>
         <header class="header">
-            <div class="image-wrapper">
-                <img src="logo4.png" >
+            <div class="img-wrapper">
+                <img src="images/firstpage.jpeg" alt="">
             </div>
             <div class="banner">
                 <h1>Epoch Zero</h1>
                 <p>All starts here</p>
-                
+                <button>Discover now</button>
             </div>
         </header>
-            <section class="rectangle">
-                <div class="rec1" >
-                    Home page</div>
-                <div class="rec2" >
-                    Key projects</div>
-                    <div class="rec3" >
-                        Client testimonials</div>
-                        <div class="rec4" >
-                            Careers</div> 
-                            <div class="rec5" >
-                                Contact us</div>  
-                    </section> 
-            <section class="Writtings">
-                <div class="Mission">
-                <h3>Mission</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe dolores incidunt neque perspiciatis, quasi, 
-                    veritatis sed repudiandae dignissimos rerum nisi unde et corrupti
-                    . Perspiciatis voluptas eius fuga neque architecto.</p>
+        <section class="sidebar">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#" class="menu-link" data-content="Home page ">Home page</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link" data-content="Key Projects">Key Projects</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link" data-content="ClientTestimonials">ClientTestimonials</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link" data-content="Careers">Careers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link" data-content="Contact us">Contact us</a>
+                </li>
+            </ul>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+        <section class="rectangle">
+            <div class="row1">
+                <div class="rec1">
+                    <div><img src="images/home.png" alt=""></div>
+                    Home page
                 </div>
-            </section>  
+                <div class="rec2">
+                   <div> <img src="images/keyprojects.png" alt=""></div>
+                   Key projects
+                </div>
+                <div class="rec3">
+                    <div><img src="images/clienttestimonials.png" alt=""></div>
+                    Client Testimonials
+                </div>
+            </div>
+            <div class="row2">
+                <div class="rec4">
+                    <div><img src="images/career.png" alt=""></div>
+                    Careers
+                </div>
+                
+                <div class="rec5">
+                    <div><img src="images/email.png" alt="">     Contact us</div>
+                
+                </div>
+            </div>
+
+        </section>
         
-        
-    </div>
+            
     
-    <script src="js1.js"></script>
+    <script src="script1.js"></script>
 </body>
 </html>
