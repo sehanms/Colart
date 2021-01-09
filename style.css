@@ -257,7 +257,7 @@ background-color: rgba(0, 0, 0, 0.8);
 .rec1{
     width:400px;
     height:250px;  
-    font: 3em sans-serif;
+    font: 3rem sans-serif;
     background-color:#00FFAA;
     text-align: center;
     margin-left: 15rem;
@@ -273,7 +273,7 @@ background-color: rgba(0, 0, 0, 0.8);
 .rec2{
     width:400px;
     height:250px;
-    font: 3em sans-serif;
+    font: 3rem sans-serif;
     background-color:#E3B100;
     text-align: center;
     margin-left: 57rem; 
@@ -289,7 +289,7 @@ background-color: rgba(0, 0, 0, 0.8);
 .rec3{
     width:400px;
     height:250px;
-    font: 3em sans-serif;
+    font: 3rem sans-serif;
     background-color:#67E6EC; 
     text-align: center;
     margin-left: 99rem; 
@@ -306,7 +306,7 @@ background-color: rgba(0, 0, 0, 0.8);
 .rec4{
     width:400px;
     height:250px;
-    font: 3em sans-serif;
+    font: 3rem sans-serif;
     background-color:#f7ff00;
     text-align: center;
     margin-left: 15rem; 
@@ -324,7 +324,7 @@ background-color: rgba(0, 0, 0, 0.8);
 .rec5{
     width:800px;
     height:250px;
-    font: 3em sans-serif;
+    font: 3rem sans-serif;
     background-color:	#ff6e4ac7;
     text-align:center;
     align-items: center;
